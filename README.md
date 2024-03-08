@@ -3,8 +3,8 @@
   ```ts
   /**
    * @description
-   * 1. omit only property that is exist in T
-   * 2. make sure that the omitted property is present again
+   * 1. omit only property that is existed in original T
+   * 2. make sure that the omitted property is not accidenticaly will present again
    * 
    * @example
    * 
