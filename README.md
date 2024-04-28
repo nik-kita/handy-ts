@@ -48,8 +48,6 @@
 
 ##### _cp all_
 ```ts
-import type { paths } from "./api/api.types";
-
 declare global {
   type Tail<T extends any[]> = T extends [infer _first, ...infer Rest] ? Rest : never;
   type OmitStrict<
